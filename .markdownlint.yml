@@ -10,8 +10,8 @@ extends:
 # first-header-h1:
 #   level: 1
 ## MD003 - Heading style
-heading-style:
-  style: setext_with_atx
+# heading-style:
+#   style: setext_with_atx
 ## MD004 - Unordered list style
 # ul-style:
 #   style: consistent
