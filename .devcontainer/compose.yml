@@ -1,5 +1,5 @@
 services:
-  redmine:
+  suimin:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile

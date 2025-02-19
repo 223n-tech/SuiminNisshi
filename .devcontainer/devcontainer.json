@@ -2,7 +2,7 @@
 {
   "name": "SuiminNisshi development environment",
   "dockerComposeFile": "compose.yml",
-  "service": "SuiminNisshi",
+  "service": "suimin",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "forwardPorts": [
     3000,
