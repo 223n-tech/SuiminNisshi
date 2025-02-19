@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  start-apache:
+    cmds:
+      - apache2ctl start
+  stop-apache:
+    cmds:
+      - apache2ctl stop
