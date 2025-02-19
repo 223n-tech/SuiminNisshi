@@ -9,8 +9,8 @@
     8025,
     7700
   ],
-  "postCreateCommand": "bash .devcontainer/post_create.sh",
-  "postStartCommand": "bash .devcontainer/post_start.sh",
+  "postCreateCommand": "/bin/bash .devcontainer/post_create.sh",
+  "postStartCommand": "/bin/bash .devcontainer/post_start.sh",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -22,7 +22,10 @@
         "bierner.markdown-preview-github-styles",
         "DavidAnson.vscode-markdownlint",
         "yzhang.markdown-all-in-one",
-        "task.vscode-task"
+        "task.vscode-task",
+        "ics.japanese-proofreading",
+        "tomoki1207.pdf",
+        "vscode-icons-team.vscode-icons"
       ],
       "settings": {
         "ansible.python.interpreterPath": "/usr/bin/python3",

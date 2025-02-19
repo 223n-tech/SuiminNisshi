@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # フォルダの管理者がrootになってしまう問題に対応
 sudo chown $(whoami):$(whoami) -R .
@@ -14,5 +14,3 @@ fi
 sudo ln -s "${DOC_ROOT}" /var/www/html
 
 source ~/.bashrc
-
-sudo 
