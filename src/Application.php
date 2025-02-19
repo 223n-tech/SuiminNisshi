@@ -54,6 +54,7 @@ class Application extends BaseApplication
                 (new TableLocator())->allowFallbackClass(false)
             );
         }
+
     }
 
     /**
