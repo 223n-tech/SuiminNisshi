@@ -19,4 +19,5 @@ bin/cake plugin assets copy
 composer dumpautoload
 # @see http://localhost:8080/
 # @see http://localhost:8080/cake_lte/debug
+
 ```
