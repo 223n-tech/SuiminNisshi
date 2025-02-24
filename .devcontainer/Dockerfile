@@ -4,10 +4,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/php:0-${VARIANT}
 
 RUN . /etc/os-release \
   && echo "deb http://deb.debian.org/debian ${VERSION_CODENAME}-backports main" > /etc/apt/sources.list.d/backports.list \
-  && apt-get update && apt-get upgrade -y
-
-RUN . /etc/os-release \
-  && echo "deb http://deb.debian.org/debian ${VERSION_CODENAME}-backports main" > /etc/apt/sources.list.d/backports.list \
   && apt-get update && export DEBIAN_FRONTEND=noninteractive \
   && apt-get install -y --no-install-recommends mariadb-client libicu-dev libfreetype6-dev libjpeg62-turbo-dev libpng-dev libzip-dev \
   && apt-get install -y --no-install-recommends bash-completion build-essential gpg vim \
