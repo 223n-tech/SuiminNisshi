@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # フォルダの管理者がrootになってしまう問題に対応
-sudo chown $(whoami):$(whoami) -R .
+# sudo chown $(whoami):$(whoami) -R .
 
 sudo chmod a+x "$(pwd)"
 sudo rm -rf /var/www/html
