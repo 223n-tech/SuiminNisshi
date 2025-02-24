@@ -14,7 +14,7 @@ fi
 
 ## app_local.phpが存在しない場合はpost-install-cmdを実行
 if [ ! -e "${PWD}/config/app_local.php" ]; then
-  composer run post-install-cmd
+  composer run post-install-cmd -n
 fi
 
 if [ -z "${__GIT_PROMPT_SHOW_CHANGED_FILES_COUNT}" ]; then
