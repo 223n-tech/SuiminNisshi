@@ -24,6 +24,13 @@ Thumbs.db
 #######################
 # CakePHP
 composer.lock
+
+# CakeLte
+webroot/adminlte
+webroot/bootstrap_u_i
+webroot/cake_lte
+webroot/debug_kit
+
 # PHPUnit
 .phpunit.cache
 tests.sqlite

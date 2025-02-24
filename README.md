@@ -21,3 +21,14 @@ composer dumpautoload
 # @see http://localhost:8080/cake_lte/debug
 
 ```
+
+## デプロイ時の処理
+
+```bash
+if [ ! -e "webroot/adminlte" ]; then
+    bin/cake cakelte install
+fi
+if [ ! -e "webroot/cake_lte" ]; then
+    bin/cake plugin assets copy
+fi
+```
