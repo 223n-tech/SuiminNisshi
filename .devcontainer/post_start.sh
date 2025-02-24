@@ -5,7 +5,7 @@ sudo chown $(whoami):$(whoami) -R .
 
 ## Apacheのrewriteモジュールを有効化
 if [ ! -e "/etc/apache2/mods-enabled/rewrite.load" ]; then
-  a2enmod rewrite
+  sudo a2enmod rewrite
 fi
 
 if [ ! -e "${PWD}/composer.lock" ]; then
