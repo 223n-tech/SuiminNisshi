@@ -36,6 +36,9 @@ RUN mkdir -p /etc/apt/keyrings \
   && apt update \
   && apt install -y eza
 
+## Enable Apache rewrite module
+RUN a2enmod rewrite
+
 ## Install d2
 RUN curl -fsSL https://d2lang.com/install.sh | sh -s --
 
